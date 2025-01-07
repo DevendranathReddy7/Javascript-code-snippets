@@ -1,6 +1,6 @@
-const arr = [NaN,1,2,'3','four'];
+const myArray = [NaN,1,2,'3','four'];
 
-console.log(arr.indexOf(NaN)); 
-console.log(arr.includes(NaN));
+console.log(myArray.indexOf(NaN)); 
+console.log(myArray.includes(NaN));
 
 console.log(NaN == NaN)
